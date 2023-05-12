@@ -1,0 +1,19 @@
+
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 20px;
+
+}
+img{
+    width: 100%;
+}
+.product_cards{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
